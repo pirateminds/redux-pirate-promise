@@ -16,9 +16,9 @@ export default function promiseMiddleware(params) {
                     response({...rest, result, type: type }, next);
                     return result;
                 },
-                (error) => {
-                    error({...rest, error, type: type }, next);
-                    return error;
+                (err) => {
+                    error({...rest, error: err, type: type }, next);
+                    return err;
                 }
             );
         } else {
@@ -33,8 +33,8 @@ export default function promiseMiddleware(params) {
                     response({...rest, result, type: type }, next);
                     return result;
                 },
-                (error) => {
-                    error({...rest, error, type: type }, next);
+                (err) => {
+                    error({...rest, error: err, type: type }, next);
                 }
             );
         }
