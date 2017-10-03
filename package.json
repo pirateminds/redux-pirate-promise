@@ -1,0 +1,30 @@
+{
+  "name": "redux-pirate-promise",
+  "version": "1.0.1",
+  "description": "Redux middleware for work with porimises the simplest way",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirateminds/redux-pirate-promise.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "middlewares",
+    "promise",
+    "promises",
+    "optimistic update",
+    "optimistic updates",
+    "async",
+    "example"
+  ],
+  "contributors": [
+    "Egor <eguurt@gmail.com> (pirateminds.com)"
+  ],
+  "author": "pirateminds.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirateminds/redux-pirate-promise/issues"
+  },
+  "homepage": "https://github.com/pirateminds/redux-pirate-promise#readme"
+}
