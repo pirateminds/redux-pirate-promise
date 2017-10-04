@@ -180,4 +180,4 @@ This module was developed to act with [redux-pirate-actions](https://github.com/
 - the minimal controller should looks like: [how to use](https://gist.github.com/wegorich/d3ec7dd2fe324697bf0d37d3d5caece8)
 
 ---
-Copyright (c) 2017 pirateminds.com. [Licensed with The MIT License (MIT)](/LICENSE). strictly enforced.
+Copyright (c) 2017 pirateminds.com. [Licensed with The MIT License (MIT)](/LICENSE)
