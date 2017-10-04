@@ -1,6 +1,6 @@
 <h1 align="center">redux-pirate-promise</h1>
 
-<h5 align="center">Redux promise middleware enables robust handling of async code in Redux. The middleware enables optimistic updates and dispatches pending, fulfilled and rejected actions. It can be combined with redux-thunk to chain async actions.</h5>
+<h5 align="center">Redux promise middleware enables robust handling of async code in Redux</h5>
 
 ```js
 import { createStore, applyMiddleware } from 'redux';
@@ -170,6 +170,14 @@ await bar();
 
 let state = store.getState();
 ```
+
+## Examples
+
+This module was developed to act with [redux-pirate-actions](https://github.com/pirateminds/redux-pirate-actions) together. 
+
+- the minimal store should looks like: [how to create store](https://gist.github.com/wegorich/2c6a8c2478f9ffce108b5a972fa37fd4
+)
+- the minimal controller should looks like: [how to use](https://gist.github.com/wegorich/d3ec7dd2fe324697bf0d37d3d5caece8)
 
 ---
 Copyright (c) 2017 pirateminds.com. [Licensed with The MIT License (MIT)](/LICENSE). strictly enforced.
